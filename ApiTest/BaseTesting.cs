@@ -20,7 +20,7 @@ namespace ApiTest
 {
     public class BaseTesting
     {
-        public readonly Api.Controller.Controller controller;
+        // public readonly Api.Controller.Controller controller;
         public readonly IConfiguration _config;
         public readonly ApiDbContext _context;
         private readonly DbContextOptionsBuilder<ApiDbContext> optionsBuilder;
@@ -64,7 +64,7 @@ namespace ApiTest
             {
                 HttpContext = httpContext
             };
-            controller!.ControllerContext = controllerContext;
+            // controller!.ControllerContext = controllerContext;
 
         }
     }
